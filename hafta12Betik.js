@@ -1,4 +1,4 @@
-var a=5;
+var a=5;                    //YELİZ KILINÇ       
 undefined
 
 var b=6;
@@ -15,7 +15,9 @@ alert(slogan.length);
 undefined
 function b(metin) { 
        for(i=0;i<metin.length;i++){   
-          alert(metin[i]);                                                                                                                                                                                                                                                }                                                                                                                                                                                                                                                                   alert(metin);                                                                                                                                                                                                                                               }
+          alert(metin[i]); 
+}
+       alert(metin);                                                                                                                                                                                                                                               }
 undefined
 b(slogan)
 undefined //bu kodda her basışta harfler tek tek gelir en sonda birleşir
