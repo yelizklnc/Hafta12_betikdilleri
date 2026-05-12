@@ -22,10 +22,14 @@ undefined
 b(slogan)
 undefined //bu kodda her basışta harfler tek tek gelir en sonda birleşir
 *******************************************************
-var m="Yaşasın Türkiye!)
-function foo(parametre){
-    slg=''
-    slg=slg+parametre[i]
-    alert(slg)
-}} foo(m)   // bu kod her seferinde 1 harfi yanına ekler ör: birincisinde Y ikincisinde Ya üçüncüsünde Yaş gibi 
-                                                                                                                                                                                                                                                    
+var m = "Yaşasın Türkiye!";
+
+function foo(parametre) {
+    let slg = ''; // boş string ile başlıyoruz
+    for (let i = 0; i < parametre.length; i++) {
+        slg = slg + parametre[i]; // her harfi sırayla ekliyoruz
+        alert(slg);               // o ana kadar oluşan string'i gösteriyoruz
+    }
+}
+
+foo(m);
